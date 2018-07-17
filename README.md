@@ -70,7 +70,7 @@ This class is used for working with subnets. Note that this implementation is fo
 
 * Initalizing a Subnet object requires two things- IP address in CIDR notation and number of subnets you want.
 ```
-snet = Subnet('127.0.0.1', 8)
+snet = Subnet('127.0.0.1/8', 8)
 ```
 
 * You can get a table of all the IP ranges by doing-
